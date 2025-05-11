@@ -1,0 +1,55 @@
+.poem-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .poem-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .poem-item.read {
+    background-color: #f8f5ff;
+  }
+  
+  .poem-item h3 {
+    color: #6a3093;
+    margin-bottom: 0.5rem;
+  }
+  
+  .poem-item pre {
+    white-space: pre-wrap;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  .poem-item .author {
+    font-style: italic;
+    color: #666;
+    text-align: right;
+  }
+  
+  .poem-divider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #d8c7ff, transparent);
+    margin: 1rem 0;
+  }
+  
+  .read-toggle {
+    background: #6a3093;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .read-toggle:hover {
+    background: #5a2580;
+  }

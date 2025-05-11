@@ -1,0 +1,41 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2c2c2c	;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.two-panel-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.left-panel {
+  flex: 1;
+  max-width: 350px;
+}
+
+.right-panel {
+  flex: 2;
+}
+
+.toggle-form-btn {
+  background: #6a3093;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.toggle-form-btn:hover {
+  background: #5a2580;
+}
